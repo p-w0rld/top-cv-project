@@ -1,0 +1,21 @@
+.education-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 0 0 7px 0;
+}
+
+.education-row .header {
+  margin: 0 0 5px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.education-row .left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}

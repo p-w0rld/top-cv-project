@@ -1,0 +1,16 @@
+.contact-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  font-family: "Roboto-Black", sans-serif;
+  text-transform: uppercase;
+}
+
+.contact-row .right-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family: "Roboto-Light", sans-serif;
+}

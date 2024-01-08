@@ -1,0 +1,95 @@
+#showcaseContent {
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0 25px;
+  border: 2px solid black;
+  padding: 15px 5px;
+}
+
+#showcaseContent > div {
+  width: 100%;
+}
+
+#showcaseContent > span {
+  margin: 5px 0;
+  text-align: center;
+  font-size: 28px;
+  width: 100%;
+  background-color: lightblue;
+  color: white;
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+}
+
+#body > #resumeForm {
+  width: 33%;
+}
+
+.job-desc {
+  text-align: start;
+}
+
+.bold {
+  font-family: "Roboto-Black", sans-serif;
+}
+
+.light {
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.dates {
+  display: flex;
+  align-items: end;
+}
+
+.hover {
+  &:hover > * {
+    opacity: 0.5;
+    transition-duration: 0.18s;
+    transition-delay: 0.08s;
+  }
+}
+.remove {
+  position: relative;
+  height: 0;
+  opacity: 0;
+  color: red;
+  text-transform: uppercase;
+}
+.hover:hover > .remove {
+  opacity: 1;
+  transition-duration: 0.18s;
+  transition-delay: 0.08s;
+}
+
+.contact-row .remove {
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+}
+.education-row .remove {
+  font-family: "Roboto-Regular";
+  align-self: end;
+  font-size: 18px;
+}
+
+.work-row .remove {
+  display: flex;
+  justify-content: end;
+  font-family: "Roboto-Regular";
+  font-size: 18px;
+}
+
+#errorMsg {
+  color: red;
+  font-size: 18px;
+  justify-content: center;
+}
