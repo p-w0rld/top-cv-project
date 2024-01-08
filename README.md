@@ -1,8 +1,27 @@
-# React + Vite
+# top-cv-project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Action Items
 
-Currently, two official plugins are available:
+- [x] Add randomize functionality
+- [x] Add reset functionality
+- [ ] Add download functionality
+  - https://stackoverflow.com/questions/44494447/generate-and-download-screenshot-of-webpage-without-lossing-the-styles
+- [x] Style the CV
+- [x] Add position title input
+- [x] Switch job description from text to textarea
+- [x] Fix startDate/endDate inputs (not handling change properly)
+- [ ] Use actual calendar inputs
+- [ ] Use actual phone number inputs
+- [x] Add removal of rows
+- [ ] Investigate how state works further
+- [ ] Get rid of redundancies (Future state)
+- [x] Add form limit messages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Helpful links
+
+- Showing another div when hovering over a different div
+- https://archive.is/jL4cG#selection-937.76-937.77
+
+## Challenges
+
+- First time passing data from one component to another so learning to lift the state up properly was a challenge which took me an 2-3 hours. A small but big error was not typenaming the parameters of my components as an object with {}.
